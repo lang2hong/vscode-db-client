@@ -1,71 +1,39 @@
-# db-client README
+#### This repository is the early source code of DB Client, the new version is closed source.
 
-This is the README for your extension "db-client". After writing up a brief description, we recommend including the following sections.
+# DB Client for Visual Studio Code
 
-## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+<!-- The online document is migrate to https://doc.database-client.com. -->
 
 ---
 
-## Following extension guidelines
+> Project site: [vscode-db-client](https://github.com/lang2hong/vscode-db-client)
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+<!-- [![Logo](./public/logo_dark.png)](https://database-client.com) -->
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+## Features
 
-## Working with Markdown
+- [NoSql Client](#nosql-client)
+  - [Connect](#connect)
+  - [Setting](#setting)
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Installation
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+Install from vscode marketplace [vscode-db-client](https://marketplace.visualstudio.com/items?itemName=lang2hong.db-client).
 
-## For more information
+## Connect
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+1. Open Database Explorer panel, then click the `+` button.
+2. Select your database type, input connection config then click the connect button.
 
-**Enjoy!**
+<!-- ![connection](images/connection.png) -->
+
+Two panels are created because in some cases you need to view both SQL and NoSQL data at the same time, you can drag the panel to the other by long-pressing.
+
+## Setting
+
+This extension contain some setting, can be modified as follows.
+
+The default settings can get the best experience, don't worry
+
+<!-- ![image](https://user-images.githubusercontent.com/27798227/146523121-9de9c708-8a8e-4e3b-ae1d-9da36f3217e1.png)
+![](images/1611910592756.png) -->

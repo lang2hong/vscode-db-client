@@ -9,7 +9,18 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "bugs": {
+    "url": "https://github.com/lang2hong/vscode-db-client/issues",
+    "email": "522306052@qq.com"
+  },
+  "homepage": "https://github.com/lang2hong/vscode-db-client/blob/main/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lang2hong/vscode-db-client"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
@@ -31,9 +42,9 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.94.0",
+    "@types/vscode": "^1.8.9",
     "@types/mocha": "^10.0.7",
-    "@types/node": "20.x",
+    "@types/node": "18.x",
     "@typescript-eslint/eslint-plugin": "^8.3.0",
     "@typescript-eslint/parser": "^8.3.0",
     "eslint": "^9.9.1",
